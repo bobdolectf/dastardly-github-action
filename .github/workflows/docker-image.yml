@@ -18,5 +18,5 @@ jobs:
       run: docker build . --file Dockerfile --tag my-image-name:$(date +%s)
     - name: Run Dastardly Action Step
     - uses: PortSwigger/dastardly-github-action@main
-    -  with:
-        -  target-url: 'https://ginandjuice.shop'
+    - with:
+        - target-url: 'https://ginandjuice.shop'
